@@ -6,7 +6,7 @@ public class Role implements Cloneable {
 	public String designation;
 	public int grossPay;
 	
-	Role(int level, String designation,int grossPay) {
+	Role(int level, String designation, int grossPay) {
 		
 		this.level = level;
 		this.designation = designation;
