@@ -16,7 +16,7 @@ public class Employee implements Cloneable {
 	protected Object clone() throws CloneNotSupportedException {
 		
 		Employee e1 = (Employee)super.clone();
-		e1.role= (Role)role.clone();
+		e1.role = (Role)role.clone();
 		return e1;
 	}
 	
